@@ -1,0 +1,27 @@
+#include<stdio.h>
+main()
+{
+	//1. display the menu
+	printf("pick an item :\n1.pen\n2.pencil\n3.book\n4.eraser");
+	//2. read their chice
+	int choice=0;
+	scanf("%d",&choice);
+	//3. display based on their choice
+	
+	switch(choice)
+	{
+		case 1:
+			printf("you picked pen.");
+			break;
+		case 2:0
+			printf("you picked pencil.");
+			break;
+		case 3:
+			printf("you picked book.");
+			break;
+		case 4:	
+		printf(" you picked eraser.");
+		break;
+		default : printf("invalid choice");
+	}
+}
